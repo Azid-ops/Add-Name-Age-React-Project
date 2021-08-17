@@ -1,0 +1,17 @@
+.myBtn
+{
+    padding: 10px 10px 10px 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    cursor: pointer;  
+}
+
+.myBtn
+{
+    background-color: salmon;
+}
+.myBtn:hover
+{
+    background-color: red;
+}

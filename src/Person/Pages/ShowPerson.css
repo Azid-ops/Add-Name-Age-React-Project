@@ -1,0 +1,55 @@
+ul
+{
+    list-style: none;
+}
+.show
+{
+    width: 80%;
+    margin: auto;
+    border:1px solid #ccc;
+    border: 1px solid;
+    text-align: left;
+    margin-top:5%;
+    padding: 16px;
+    display: inline-block;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+@media(min-width:500px)
+{
+    .show
+    {
+        width: 60%;
+    }
+}
+
+.myBtn
+{
+    float: right;
+    padding: 10px 10px 10px 10px;
+    background-color: salmon;
+    border: none;
+    color: white;
+    cursor: pointer;  
+}
+
+.myBtn:hover
+{
+    background-color: red; 
+}
+
+.show:hover
+{
+    border: 1px solid red;
+}
+
+.go
+{
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 1%;
+}

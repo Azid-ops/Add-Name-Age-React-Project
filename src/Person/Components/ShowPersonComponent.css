@@ -1,0 +1,26 @@
+.Red
+{
+    color: red;
+}
+
+.Bold
+{
+    font-weight: bold;
+}
+
+.card
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 4px 2px 4px 2px #ccc;
+    padding: 16px;
+}
+
+@media(min-width:500px)
+{
+    .card
+    {
+        width: 60%;
+    }
+}
